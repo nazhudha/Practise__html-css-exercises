@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Exercise</title>
+
+    <link href="css/style.css" rel="stylesheet">
+    <script src="script/app.js" charset="utf-8" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>Company name</h1>
+    </header>
+
+    <!-- FORM CONTAINER -->
+    <section>
+
+        <!-- <div class="column">
+            <h2>
+                Name of Company
+            </h2>
+        </div> -->
+
+        <div class="column">
+            <div class="form-container">
+                <h2>Forms</h2>
+                <form onsubmit="myFunction()">
+                    <div>
+                        <label for="fname">First name:</label>
+                        <input type="text" placeholder="first name" id="fname" name="fname">
+                    </div>
+                    <div>
+                        <label for="lname">Last name:</label>
+                        <input type="text" placeholder="last name" id="lname" name="lname">
+                    </div>
+
+                    <br>
+                    <div>
+                        <label for="email">email:</label>
+                        <input type="email" placeholder="create user name" id="email" name="user-name">
+                    </div>
+                    <div>
+                        <label for="password">password:</label>
+                        <input type="password" placeholder="create password" id="password" name="password">
+                    </div>
+
+                    <br>
+                    <div>
+                        <h4>Gender</h4>
+                        <label for="male">male:</label>
+                        <input type="radio" id="male" name="male" value="male" />
+                        <label for="female">female:</label>
+                        <input type="radio" id="female" name="female" value="female" />
+                    </div>
+
+                    <br>
+                    <div>
+                        <h4>Account types:</h4>
+                        <label for="bronze">bronze:</label>
+                        <input type="checkbox" id="bronze" name="bronze" value="bronze" />
+                        <label for="silve">silver:</label>
+                        <input type="checkbox" id="silver" name="silver" value="silver" />
+                        <label for="gold">gold:</label>
+                        <input type="checkbox" id="gold" name="gold" value="gold" />
+                    </div>
+
+                    <br>
+                    <div>
+                        <input type="submit" value="submit form">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    background-color: aliceblue;
+    background-image: url('../src/chart background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+
+}
+
+.column {
+    justify-content: flex-end;
+    /* height: 50vh;
+    width: 50vw; */
+    padding: 15px;
+    margin: 15px;
+    /* display: inline-block; */
+}
+
+.form-container {
+    background-color: white;
+    box-shadow: 5px 5px grey;
+    padding: 20px 30px;
+    margin: 10px;
+    margin-left: 30px;
+
+
+}
