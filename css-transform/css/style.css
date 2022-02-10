@@ -1,0 +1,123 @@
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 350px;
+}
+
+/* SECTION BOX------------->*/
+.box {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  margin:100px;
+  cursor: pointer;
+  /* position: relative; */
+}
+
+.slide-in {
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    /* transition: width 2s, height 2s, background-color 2s, transform 2s; */
+    transition: 1s ease-out;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:3rem;
+    color:#fff;
+}
+
+.slide-in:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+    font-size:4rem;     
+}   
+
+.slide-in p:hover {
+    transform: rotate(200deg);
+}
+
+
+/* SECTION CIRCLE------------->*/
+.circle {
+    width: 200px;
+    height: 200px;
+    background-color: magenta;
+    transition: 1s;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size:3rem;
+    color:#fff;    
+}
+
+.circle:hover {
+    background-color: cyan;
+    border-radius: 50%;
+
+}
+
+/* SECTION MOVE------------->*/
+.move {
+    width: 100px;
+    height: 100px;
+    background-color: turquoise;
+    margin: 20px;
+    transition: 1.5s;
+}
+
+div:hover .move{
+    margin-left: 300px;
+}
+
+div .move:nth-last-of-type(2){
+    transition-timing-function: ease-in;
+}
+
+div .move:nth-last-of-type(3){
+    transition-timing-function: cubic-bezier(0.87, 0, 0.13, 1);
+}
+
+
+/* FLEX GROW / SHRINK------------->*/
+
+.flex-container {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+
+.flex-container .underline {
+    height: 200px;
+    flex: 1 1 calc(100% /3);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+
+.flex-container .underline span {
+    color: white;
+    font-size: 2rem;
+}
+
+.flex-container .underline span::after {
+    content: "span";
+    display: block;
+    height: 10px;
+    width: 10%;
+    background-color: white;
+    transform: scale(1.3,0.6);
+    transition: 0.4s width linear;
+    margin: 10px auto;
+}
+
+.flex-container .underline:hover  span::after {
+    width: 80%;
+
+}

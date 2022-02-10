@@ -1,0 +1,90 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+body h1 {
+    margin-bottom: 0px;
+}
+
+
+
+/* JUSTIFY CONTENT SECTION ---------->>>>>>>>>>> */
+.container {
+    display: flex;
+    gap: 10px;
+    border: 1px solid red;
+    margin: 10px 10px;
+    width: 80vw;
+}
+
+.container div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.container.center {
+    justify-content: center;
+}
+
+.container.flex-end {
+    justify-content: flex-end;
+}
+
+.container.space-between {
+    justify-content: space-between;
+}
+
+.container.space-around {
+    justify-content: space-around;
+}
+
+/* ALIGN ITEMS SECTION ---------->>>>>>>>>>> */
+.align-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.align-items main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.container2 {
+    display: flex;
+    gap: 10px;
+    border: 1px solid plum;
+    margin: 10px 10px;
+
+    height: 150px;
+    width: 40vw;
+    background-color: orange;
+}
+
+.container2 div {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.align-items-center {
+    height: 150px;
+    background-color: orange;
+    justify-content: center;
+    align-items: center;
+}
+
+.align-items-start {
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.align-items-end {
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.align-items H2 {
+    z-index: 1;
+}

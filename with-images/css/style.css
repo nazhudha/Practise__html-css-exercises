@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+section {
+    background-color: blanchedalmond;
+    height: 50vmax;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+#hero {
+    height: 100vh;
+    width: 100vw;
+}
+
+/* SECTION 1 BACKGROUND IMAGES  --------->>>>>> */
+.flex {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.full-screen-image {
+    position: absolute;
+    background-color: red;
+    background-image: url('../src/cat.jpg');
+    /* object-fit: contain; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    top: 0;
+}
+
+.full-screen-image p {
+    font-size: 4rem;
+    text-align: center;
+}

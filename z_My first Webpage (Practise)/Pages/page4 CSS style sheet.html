@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>My Page 3</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <link rel="stylesheet" href="/Users/nazmul/Documents/1. Visual Studio Code/1. My first Webpage/CSS/page_4.css">
+
+  <!--USING GOOGLE DONTS and SEECT FONT FAMILY-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@200&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body>
+  <header>
+    <h3>Back to<a href="../index.html"> Home Page</a></h2>
+      <h1>CSS and STyling </h2>
+  </header>
+  <div style="margin:20px 10px; padding: 10px; background-color: lightcyan;">
+    This is a paragaph to check the padding and Marging working
+  </div>
+  <ul> Have 4 types of positioning:
+    <li>Static: dafault one. One on top of another? </li>
+    <li>Absolute: positioned to the container in the HTML doc of where it is placed </li>
+    <li>Relative: Realtive to where it is suppose to be: top, bottom, left, right etc </li>
+    <li>Fixed: stay fixed in position (like 'freeze' in excel) when view in browswer (if scroll up and down)</li>
+  </ul>
+  <div>
+    CSS selectors:
+    <ul>
+      <li>-Class & ID and * for allo</li>
+      <li>ul > li : selects all list items inside lists (where parent is ul, select all li) </li>
+      <li>P + h2: selects any h2 After P </li>
+      <li>[href] [title]: html properties/attributes in square brackets</li>
+      <li>li[title = 'lemon']: specific, a list item with 'lemon attribute' </li>
+      <li>[title*='lem']: all title with attribue 'lem'</li>
+      <li>hr:hover: if hover over elemnt</li>
+      <li>input:checked - if I check an input field </li>
+
+
+    </ul>
+
+
+  </div>
+
+  <br>
+
+  <section>
+    <h2>Advance CSSL Original</h2>
+    <img src="/Users/nazmul/Documents/1. Visual Studio Code/1. My first Webpage/Media/csslogo.png" alt="css">
+  </section>
+  <section>
+    <h2 style="text-shadow: 2px 2px 2px red;  position: relative; top: 150px; left: 10px;">Advance CSSL Edited</h2>
+    <img style="border-radius: 20%; box-shadow: 5px 5px 5px grey; opacity: 0.5;"
+      src="/Users/nazmul/Documents/1. Visual Studio Code/1. My first Webpage/Media/csslogo.png" alt="css">
+  </section>
+
+
+  <main>
+    <div class="header-one">
+      <h3><b>This is header One (with background image)</b></h3>
+      <p style="font-size: large;"><i>This is with paragraph 1 </i></p>
+    </div>
+
+    <h3 class="header2">This is header Two </h3>
+    <p>This is with paragraph 1</p>
+    <br>
+
+    <h3 id="headerthree">Image Header Three</h3>
+    <img width="500px" class="images"
+      src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-girl-cat-names-1606245046.jpg?crop=0.668xw:1.00xh;0.126xw,0&resize=768:*">
+    <p>Three Things that affect space around elements
+    <ul>
+      <li><b>Padding</b> (space around text)</li>
+      <li><b>Margin</b> (space outside of border that surronds padding)</li>
+      <li><b>Border</b> (the outer Layer)</li>
+    </ul>
+    For example:
+    <br>
+    <img id="spaceimage" src="Media/html spaces .png">
+
+    <div id="textbox">
+      <p>
+        Order in which CSS applies
+      <ul>
+        <li><b>body</b> (everything in Body)</li>
+        <li><b>Class</b> (Class overides body)</li>
+        <li><b>Class Order</b> (Lower the order, the more priority)</li>
+        <li><b>ID</b> (ID more specific than classes, and dosent matter order) </li>
+        <li><b>Inline</b> (Overrides all above) </li>
+        <li><b>!important</b> will overide everything (most specific)</li>
+      </ul>
+      </p>
+    </div>
+
+    <hr>
+    <input type="radio" name="button" />
+    <input type="radio" name="button" />
+    <input type="checkbox" name="button" />
+    <input type="checkbox" name="button" />
+
+    </p>
+  </main>
+
+</body>
+
+</html>

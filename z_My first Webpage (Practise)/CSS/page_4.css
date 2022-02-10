@@ -1,0 +1,79 @@
+
+/* must not contain ANY HTML on CSS sheet*/
+
+body {
+  background-color: whitesmoke;
+    font-family: sans-serif;
+    padding: 0pt;
+}
+.header-one {
+    background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/32CB/production/_107830031_artist_s_view_of_vega_carrying_aeolus.jpg");
+    font-family: 'Source Sans Pro', sans-serif; /* Select a series of font, last one generic backup*/   
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
+
+    font-size: xx-large;
+    text-align: center;
+    height: 250px;
+    color: linen;
+    
+    border-color: rgb(235, 130, 130);
+    border-width:5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 0px;
+    padding: 20px;
+}
+
+.header2 {
+    background-color: rgb(222, 242, 249);   
+    font-family: 'Source Sans Pro', sans-serif; /* Select a series of font, last one generic backup*/   
+    font-size: xx-large;
+    text-align: center;
+    
+    border-color: rgb(235, 130, 130);
+    border-width:5px;
+    border-style: solid;
+    border-radius: 10px;
+    margin: 50px;
+    padding: 20px 100px 40px 10px;
+
+}
+
+/*CSS puts priority on ID than class, if element has both*/
+#headerthree {
+    font-style: italic;
+}
+
+.images {
+    width: 260px;
+
+    border-color: rgb(70, 1, 1);
+    border-width:2px;
+    border-style: solid;
+    border-radius: 20%;
+}
+
+#spaceimage {
+    width: 200px;
+    float: center;
+    border-radius: 15%;
+}
+
+[type="radio"] {
+    margin: 20px 20px 20px 20px;
+}
+
+[type="checkbox"] {
+    margin: 20px 20px 20px 20px;
+}
+
+#textbox {
+    float: right;
+    text-align: left;
+}
