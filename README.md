@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Practise__html-css-exercises
 
 A collection of exercises and practising different features, whilst on the Bath Spa Coding Bootcamp Jan 2022
 
