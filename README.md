@@ -38,4 +38,10 @@ Using ‘transform’, ‘transition’, ‘flex grow’ and ‘flex shrink’ t
 
 [Code pen Link](https://codepen.io/nazhudha/pen/zYpKomg)
 
+###  css - 6th Tailwind initial
+
+Intial use of Tailwind to style div
+
+[Code pen Link](https://codepen.io/nazhudha/pen/YzYGNXQ)
+
 
